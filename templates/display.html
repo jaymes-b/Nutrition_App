@@ -1,0 +1,10 @@
+
+<center><table class="centered thick-border">
+    {% for nutrient_name, amount in result%}
+    <ul>
+            <tr>
+                    <td>{{ nutrient_name }}.</td><td>{{ amount }}</td>
+            </tr>
+    </ul>
+    {% endfor %}
+</table></center>
